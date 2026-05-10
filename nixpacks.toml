@@ -1,0 +1,3 @@
+# https://nixpacks.com/docs/providers/node
+nixpacks_build_cmd = "npm install"
+nixpacks_start_cmd = "npm start"

@@ -1,0 +1,25 @@
+{
+  "name": "gate-tg-bot",
+  "version": "0.1.0",
+  "description": "Gate.io永续合约 Telegram 交易机器人",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"测试网模式: npm run start\" && exit 0"
+  },
+  "keywords": ["gate.io", "telegram", "bot", "perpetual", "futures", "trading"],
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
